@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background">
+
+        <com.vkc.loyaltyapp.manager.CustomTextViewWhite
+
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Test"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+
+            android:id="@+id/imageNotification"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/textTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            app:riv_border_color="#333333"
+            app:riv_border_width="1dip"
+            android:visibility="gone"
+            app:riv_corner_radius="25dip" />
+        <com.vkc.loyaltyapp.manager.CustomTextViewWhite
+
+            android:id="@+id/textPinch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageNotification"
+            android:text="Pinch in to zoom"
+            android:gravity="center|right"
+             />
+        <WebView
+            android:id="@+id/webImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textPinch"
+            android:layout_marginLeft="5dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+           />
+
+        <WebView
+
+            android:id="@+id/webMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/webImage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

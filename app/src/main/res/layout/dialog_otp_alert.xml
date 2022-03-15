@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/datePickerBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/curved_rel_layout">
+
+        <RelativeLayout
+            android:id="@+id/relative_actionbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.vkc.loyaltyapp.manager.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="OTP Verification"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@color/transparent"
+                android:text="X"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/separatorViewTop"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/relative_actionbar"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="#fff" />
+
+        <com.vkc.loyaltyapp.manager.CustomTextView
+            android:id="@+id/textOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separatorViewTop"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/contentRl"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textOtp"
+            android:background="#00FFFFFF">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editOtp1"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded_rect_line"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+                <EditText
+                    android:id="@+id/editOtp2"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded_rect_line"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+
+                    android:singleLine="true"
+
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:id="@+id/editOtp3"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded_rect_line"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textCursorDrawable="@null" />
+
+                <EditText
+                    android:id="@+id/editOtp4"
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/rounded_rect_line"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textCursorDrawable="@null" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <com.vkc.loyaltyapp.manager.CustomTextView
+            android:id="@+id/textCancelDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/contentRl"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="   Click cancel If unable to receive OTP"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <View
+            android:id="@+id/separatorViewBottom"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/contentRl"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#FF0000"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/relative_actionbarTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCancelDesc"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <com.vkc.loyaltyapp.manager.CustomTextView
+                    android:id="@+id/textCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight=".50"
+                    android:background="@drawable/rounded_line_small"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Cancel"
+                    android:layout_marginRight="5dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <com.vkc.loyaltyapp.manager.CustomTextView
+                    android:id="@+id/textResend"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight=".50"
+                    android:background="@drawable/rounded_line_small"
+                    android:gravity="center"
+                    android:padding="10dp"
+
+                    android:text="Resend OTP"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

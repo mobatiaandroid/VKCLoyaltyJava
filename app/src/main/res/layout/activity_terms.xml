@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <WebView
+        android:id="@+id/webTerms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".90" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:gravity="right|center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkboxTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:clickable="true"
+            android:focusable="false"
+            android:text="I Agree"
+            android:layout_marginRight="5dp"
+            android:gravity="right|center" />
+       <Button
+           android:id="@+id/buttonNext"
+           android:layout_width="50dp"
+           android:layout_height="match_parent"
+           android:layout_marginRight="20dp"
+           android:background="@null"
+           android:text=">>"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".40">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".60"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textColorHint="#c1c2c4"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <EditText
+                android:id="@+id/editUserName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_line_small"
+                android:focusableInTouchMode="true"
+                android:hint="User Name"
+                android:inputType="textWebEmailAddress"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+
+            android:textColorHint="#c1c2c4"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <EditText
+                android:id="@+id/editPassword"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_line_small"
+                android:focusableInTouchMode="true"
+                android:hint="Password"
+                android:inputType="textWebPassword"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@null" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:background="@drawable/rounded_rect_green"
+            android:text="LOGIN"
+            android:textColor="@android:color/white" />
+
+        <com.vkc.loyaltyapp.manager.CustomTextView
+            android:id="@+id/textSignup"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/rounded_rect_line"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Signup"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+</LinearLayout>

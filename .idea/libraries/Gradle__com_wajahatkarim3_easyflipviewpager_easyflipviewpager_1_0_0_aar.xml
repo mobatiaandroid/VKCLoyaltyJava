@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wajahatkarim3.easyflipviewpager:easyflipviewpager:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-easyflipviewpager-1.0.0.aar/bae042bf98baabb22052e5a70bfe6e91/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-easyflipviewpager-1.0.0.aar/bae042bf98baabb22052e5a70bfe6e91/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-easyflipviewpager-1.0.0.aar/bae042bf98baabb22052e5a70bfe6e91/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

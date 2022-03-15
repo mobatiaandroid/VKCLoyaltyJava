@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/relative_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#9d4272"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/btn_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_weight=".15"
+                android:padding="5dp"
+                app:srcCompat="@drawable/back"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".60"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.vkc.loyaltyapp.manager.CustomTextView
+                    android:id="@+id/heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+
+                    android:gravity="center|left"
+                    android:text="Gift"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_weight=".25">
+
+                <ImageView
+                    android:id="@+id/btn_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+
+                    app:srcCompat="@drawable/cart"
+                    android:visibility="invisible" />
+
+                <com.vkc.loyaltyapp.manager.CustomTextView
+                    android:id="@+id/textCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="top|left"
+                    android:text="0"
+                    android:visibility="invisible"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+
+            <!--    <ImageView
+                    android:id="@+id/imageThumb"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:adjustViewBounds="true"
+
+                    android:scaleType="fitXY"
+                    android:elevation="2dp"/>-->
+            <com.makeramen.roundedimageview.RoundedImageView
+
+                android:id="@+id/imageThumb"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:layout_centerInParent="true"
+                app:riv_border_color="#333333"
+                app:riv_border_width="1dip"
+                app:riv_corner_radius="30dip" />
+
+
+        </RelativeLayout>
+
+        <com.vkc.loyaltyapp.manager.CustomTextView
+            android:id="@+id/textPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/pointstag"
+            android:gravity="center"
+            android:text="200"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.vkc.loyaltyapp.manager.CustomTextView
+        android:id="@+id/textDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:id="@+id/llDistributor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+
+            android:orientation="vertical">
+
+
+            <com.vkc.loyaltyapp.manager.CustomEditTextWhite
+                android:id="@+id/editQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_line_small"
+                android:hint="Quantity"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingLeft="20dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textSize="14dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_line_small"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoDistributor"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight=".90"
+                    android:background="@null"
+                    android:hint="Select Distributor"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:layout_weight=".15"
+                    app:srcCompat="@drawable/arrow_down" />
+            </LinearLayout>
+
+         <!--   <com.vkc.loyaltyapp.manager.CustomEditTextWhite
+                android:id="@+id/editQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_line_small"
+                android:hint="Enter quantity"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textSize="14sp" />-->
+
+            <com.vkc.loyaltyapp.manager.CustomTextView
+                android:id="@+id/textAddCart"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_rect_line"
+                android:gravity="center"
+                android:text="Add to Cart"
+                android:textColor="@android:color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <!--<Button
+            android:id="@+id/buttonIssue"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_rect_green"
+            android:text="Issue Points"
+            android:textColor="@android:color/white" />-->
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

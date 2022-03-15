@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: devlight.io:arcprogressstackview:1.0.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

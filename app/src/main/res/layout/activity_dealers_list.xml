@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/relativeHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/llSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relativeHeader"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editSearch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/relativeHeader"
+
+            android:background="@drawable/rounded_rect_redline"
+            android:hint="Search by name"
+            android:imeOptions="actionSend"
+            android:paddingLeft="15dp" />
+<!--
+        <ImageView
+            android:id="@+id/imageSearch"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".10"
+            android:src="@drawable/search" />-->
+
+    </LinearLayout>
+
+    <!-- <View
+         android:id="@+id/view"
+         android:layout_width="match_parent"
+         android:layout_height="2dp"
+         android:layout_below="@+id/relativeHeader"
+         android:background="@drawable/shadow" />-->
+
+    <ListView
+        android:id="@+id/listViewDealer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llSearch"
+        android:layout_marginBottom="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#9d4272">
+
+
+        <com.vkc.loyaltyapp.manager.CustomTextView
+            android:id="@+id/textSubmit"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_rect_line"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

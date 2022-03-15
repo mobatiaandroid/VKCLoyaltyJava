@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="devlight">
+        <item>#fb7c9e</item>
+        <item>#ffffff</item>
+
+
+    </string-array>
+
+    <string-array name="bg">
+        <item>#D48496C4</item>
+        <item>#B5E4B76B</item>
+    </string-array>
+
+
+    <string-array name="medical_express">
+        <item>#8f5a00</item>
+        <item>#8f5a00</item>
+    </string-array>
+
+</resources>

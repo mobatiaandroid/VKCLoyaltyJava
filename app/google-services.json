@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "168425059354",
+    "firebase_url": "https://vkc-loyalty.firebaseio.com",
+    "project_id": "vkc-loyalty",
+    "storage_bucket": "vkc-loyalty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168425059354:android:1e138a892563863e",
+        "android_client_info": {
+          "package_name": "com.vkc.loyaltyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168425059354-cimb9l4umbkls1a7lu4ib12vvllbh2eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVDP00o0kOJMAXxX8vSmNDtfn55hLfGLA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
