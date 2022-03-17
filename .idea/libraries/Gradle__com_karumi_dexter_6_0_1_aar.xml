@@ -4,8 +4,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dexter-6.0.1.aar/99b2d491909f3529118dec679a067798/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dexter-6.0.1.aar/99b2d491909f3529118dec679a067798/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dexter-6.0.1.aar/99b2d491909f3529118dec679a067798/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7abfd5f2d9658a5e58dcc087814b4b80/transformed/jetified-dexter-6.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7abfd5f2d9658a5e58dcc087814b4b80/transformed/jetified-dexter-6.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7abfd5f2d9658a5e58dcc087814b4b80/transformed/jetified-dexter-6.0.1/AndroidManifest.xml" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.karumi/dexter/6.0.1/b3b8ca97738516b1428be077e0ff9c5028088cdf/dexter-6.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.karumi/dexter/6.0.1/7dfdb60bd74e8a5258fdbae30d9ab033a5764dca/dexter-6.0.1-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -2,13 +2,19 @@
   <library name="Gradle: com.google.android.material:material:1.1.0-alpha08@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha08.aar/ec250d18f4c9d424affd9b03f34516c9/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/23dca0628fda83775d93fd3dd7ead5b5/transformed/material-1.1.0-alpha08/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha08.aar/ec250d18f4c9d424affd9b03f34516c9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha08.aar/ec250d18f4c9d424affd9b03f34516c9/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha08.aar/ec250d18f4c9d424affd9b03f34516c9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/23dca0628fda83775d93fd3dd7ead5b5/transformed/material-1.1.0-alpha08/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/23dca0628fda83775d93fd3dd7ead5b5/transformed/material-1.1.0-alpha08/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/23dca0628fda83775d93fd3dd7ead5b5/transformed/material-1.1.0-alpha08/res" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha08/cdfae3ff8545370d8eb70d3e530d18dbd48983b/material-1.1.0-alpha08-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

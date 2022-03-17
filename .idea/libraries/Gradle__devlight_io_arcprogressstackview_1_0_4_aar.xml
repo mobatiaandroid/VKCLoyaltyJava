@@ -4,8 +4,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-arcprogressstackview-1.0.4.aar/37e4519116d1d10f63c6895351d02b5e/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/02da622df8d5eb4e234956dac8fecbfa/transformed/jetified-arcprogressstackview-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02da622df8d5eb4e234956dac8fecbfa/transformed/jetified-arcprogressstackview-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02da622df8d5eb4e234956dac8fecbfa/transformed/jetified-arcprogressstackview-1.0.4/AndroidManifest.xml" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/devlight.io/arcprogressstackview/1.0.4/ea9aa23b072cf107f809fa3ef63c2dfd292065de/arcprogressstackview-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/devlight.io/arcprogressstackview/1.0.4/1c1004d62d9c974cfe560ae5b68de33b75a8f405/arcprogressstackview-1.0.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
